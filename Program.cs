@@ -8,7 +8,8 @@ namespace CSharpExercises
         {
            // Exercises.Exercise1();
             //Exercises.printMaximum();
-            Exercises.tellTheImage();
+            //Exercises.tellTheImage();
+            Exercises.speedLimitCheck();
         }
     }
 }
