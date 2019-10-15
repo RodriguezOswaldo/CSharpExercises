@@ -38,5 +38,22 @@ namespace CSharpExercises
 
         /// Write a program and ask the user to enter the width and height of an image. Then tell if the image 
         /// is landscape or portrait.
+        public static void tellTheImage()
+        {
+            Console.Write("type image width: ");
+            var width = Convert.ToInt32(Console.ReadLine());
+            Console.Write("type image height: ");
+            var height = Convert.ToInt32(Console.ReadLine());
+            var orientation =  height < width ?
+                ImageOrientation.Landscape : ImageOrientation.Portrait;
+            Console.WriteLine("Image orientation is " + orientation);
+        }
+        public enum ImageOrientation
+        {
+            Landscape,
+            Portrait
+        }
+
+
     }
 }

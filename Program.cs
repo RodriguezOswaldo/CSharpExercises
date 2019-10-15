@@ -6,9 +6,9 @@ namespace CSharpExercises
     {
         static void Main(string[] args)
         {
-            Exercises.Exercise1();
-            Exercises.printMaximum();
-
+           // Exercises.Exercise1();
+            //Exercises.printMaximum();
+            Exercises.tellTheImage();
         }
     }
 }
